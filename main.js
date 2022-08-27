@@ -6,7 +6,7 @@ const sleep = (ms) => {
 };
 
 const animate = async () => {
-  await sleep(3000);
+  await sleep(2000);
   words.style.transform = `translateY(-25%)`;
   words.style.transition = `transform ${duration}ms ease-in-out`;
   await sleep(duration);
